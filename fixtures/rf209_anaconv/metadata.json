@@ -1,0 +1,13 @@
+{
+  "description": "Decay PDFs with truth and Gaussian resolution models.",
+  "modified_from_source": true,
+  "notes": [
+    "The original tutorial has no data; this fixture adds a decay toy dataset.",
+    "ROOT 6.41.01 exports invalid internal convolution names for this fixture."
+  ],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf209_anaconv.py",
+  "test_id": "rf209_anaconv",
+  "title": "RooFit rf209 analytical convolution"
+}

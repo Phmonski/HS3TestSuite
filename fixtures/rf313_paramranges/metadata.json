@@ -1,0 +1,13 @@
+{
+  "description": "Three-dimensional product polynomial model with parameterized ranges and generated data.",
+  "modified_from_source": true,
+  "notes": [
+    "The original tutorial has no data; this fixture adds a toy dataset.",
+    "The parameterized-range integral is not stored because ROOT 6.41.01 segfaults on import."
+  ],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf313_paramranges.py",
+  "test_id": "rf313_paramranges",
+  "title": "RooFit rf313 parameterized ranges"
+}

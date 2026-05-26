@@ -1,0 +1,10 @@
+{
+  "description": "Three-dimensional signal/background mixture with named ranges.",
+  "modified_from_source": false,
+  "notes": [],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf311_rangeplot.py",
+  "test_id": "rf311_rangeplot",
+  "title": "RooFit rf311 range plotting model"
+}

@@ -1,0 +1,12 @@
+{
+  "description": "Two-dimensional Gaussian product with integral and CDF objects plus data.",
+  "modified_from_source": true,
+  "notes": [
+    "The original tutorial has no data; this fixture adds a toy dataset."
+  ],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf308_normintegration2d.py",
+  "test_id": "rf308_normintegration2d",
+  "title": "RooFit rf308 two-dimensional integration"
+}

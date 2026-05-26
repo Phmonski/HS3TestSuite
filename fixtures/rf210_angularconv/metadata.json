@@ -1,0 +1,10 @@
+{
+  "description": "Angular FFT convolution in psi and cos(psi).",
+  "modified_from_source": false,
+  "notes": [],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf210_angularconv.py",
+  "test_id": "rf210_angularconv",
+  "title": "RooFit rf210 angular convolution"
+}

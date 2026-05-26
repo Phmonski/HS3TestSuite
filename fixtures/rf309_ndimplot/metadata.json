@@ -1,0 +1,10 @@
+{
+  "description": "Two- and three-dimensional composed Gaussian models with toy data.",
+  "modified_from_source": false,
+  "notes": [],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf309_ndimplot.py",
+  "test_id": "rf309_ndimplot",
+  "title": "RooFit rf309 N-dimensional plotting model"
+}

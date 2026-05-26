@@ -1,0 +1,12 @@
+{
+  "description": "Gaussian with integral and CDF objects plus generated data for scans.",
+  "modified_from_source": true,
+  "notes": [
+    "The original tutorial has no data; this fixture adds a toy dataset."
+  ],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf110_normintegration.py",
+  "test_id": "rf110_normintegration",
+  "title": "RooFit rf110 normalization integration"
+}

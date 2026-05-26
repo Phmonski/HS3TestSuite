@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "id": "static_integrity",
+      "kind": "static_integrity"
+    },
+    {
+      "id": "structure_import",
+      "kind": "structure_import",
+      "target": {
+        "data": [
+          "model_2Data"
+        ],
+        "functions": [
+          "fy_1",
+          "fy_2",
+          "fy_3",
+          "fy_4"
+        ],
+        "pdfs": [
+          "model_1",
+          "model_2",
+          "model_3",
+          "model_4"
+        ]
+      }
+    },
+    {
+      "comparison": {
+        "rule": "|evaluated - expected| <= atol + rtol * |expected|",
+        "type": "pointwise_comp"
+      },
+      "expected": [
+        7842.016067552846,
+        1970.7453662613825,
+        0.0,
+        2002.5076091129667,
+        8001.928347905585
+      ],
+      "id": "twice_delta_nll_scan",
+      "kind": "twice_delta_nll_scan",
+      "reference_point": {
+        "a0": -1.5,
+        "a1": -0.5,
+        "sigma": 0.5,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "scan_parameter": "a0",
+      "scan_points": [
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5
+      ],
+      "target": {
+        "data": "model_2Data",
+        "pdf": "model_2"
+      },
+      "tolerance": {
+        "atol": 1e-07,
+        "rtol": 1e-08
+      }
+    }
+  ],
+  "schema_version": 1,
+  "test_id": "rf302_utilfuncs"
+}

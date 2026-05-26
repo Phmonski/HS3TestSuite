@@ -1,0 +1,10 @@
+{
+  "description": "Landau convolved with a Gaussian using RooFFTConvPdf.",
+  "modified_from_source": false,
+  "notes": [],
+  "reference_backend": "roofit 6.41.01",
+  "schema_version": 1,
+  "source": "ROOT RooFit tutorial rf208_convolution_fft3.py",
+  "test_id": "rf208_convolution_fft3",
+  "title": "RooFit rf208 FFT convolution"
+}
